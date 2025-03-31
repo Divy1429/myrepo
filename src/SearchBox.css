@@ -1,0 +1,33 @@
+.search-card {
+    background: linear-gradient(135deg, #1e1e1e, #2a2a2a) !important;
+    border-radius: 16px !important;
+    border: 1px solid #4cc9f0 !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+    margin: 1.5rem 0 !important;
+  }
+  
+  .search-title {
+    color: #90caf9 !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+  }
+  
+  .search-input .MuiOutlinedInput-root {
+    color: #e6f7ff !important;
+    border-radius: 8px !important;
+    background: rgba(30, 30, 30, 0.8) !important;
+  }
+  
+  .search-button {
+    background: linear-gradient(45deg, #1976d2, #4cc9f0) !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+    padding: 12px 24px !important;
+    transition: all 0.3s ease !important;
+  }
+  
+  .search-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(76, 201, 240, 0.4);
+  }

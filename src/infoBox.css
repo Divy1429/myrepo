@@ -1,0 +1,12 @@
+/* infoBox.css */
+.InfoBox {
+    margin: 2rem auto; /* Center horizontally */
+    max-width: 800px; /* Control maximum width */
+  }
+  
+  /* Optional: Add if you need dark mode variant */
+  .dark .InfoBox {
+    background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+    color: white;
+    border: 1px solid rgba(76, 201, 240, 0.2);
+  }

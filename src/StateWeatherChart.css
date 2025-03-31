@@ -1,0 +1,47 @@
+.state-chart-container {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(76, 201, 240, 0.1);
+  }
+  
+  .chart-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .chart-icon {
+    color: #4cc9f0;
+  }
+  
+  .chart-title {
+    color: #90caf9;
+    font-weight: 600;
+  }
+  
+  .recharts-cartesian-grid line {
+    stroke: rgba(255, 255, 255, 0.1);
+  }
+  
+  .recharts-tooltip-cursor {
+    fill: rgba(76, 201, 240, 0.1);
+  }
+  
+  .recharts-legend-item-text {
+    color: #ffffff !important;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .state-chart-container {
+      padding: 1rem;
+    }
+    
+    .chart-title {
+      font-size: 1.1rem;
+    }
+  }
