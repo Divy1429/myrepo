@@ -1,5 +1,5 @@
 import { ThemeProvider, createTheme, CssBaseline, Container } from '@mui/material';
-import './app.css';
+import './App.css';
 import Dashboard from './Dashboard';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import { Typography, Box } from '@mui/material';
